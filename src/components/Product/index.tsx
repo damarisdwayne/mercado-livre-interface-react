@@ -1,6 +1,8 @@
 import React from 'react';
 
 import tShirtImage from '../../assets/tshirt.png'
+import SellerInfo from '../SellerInfo'
+import ProductAction from '../ProductAction'
 
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
 
@@ -22,8 +24,8 @@ function Product() {
         </Column>
 
         <Column>
-          {/* <ProductAction/>
-          <SellerInfo/> */}
+          <ProductAction/>
+          <SellerInfo/> 
 
           <WarrantySection />
           <WarrantySection />
@@ -55,7 +57,7 @@ const WarrantySection = () => (
 
 const Info = () => (
   <Description>
-    <h1>Descrição</h1>
+    <h2>Descrição</h2>
     <p>It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of

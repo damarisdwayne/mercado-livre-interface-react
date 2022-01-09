@@ -29,7 +29,7 @@ export const Panel = styled.div`
     box-shadow: var(--panel-shadow);
 
     display: grid;
-    grid-template-columns: 65fr 35fr;
+    grid-template-columns: 60fr 40fr;
 `;
 
 export const Column = styled.div`
@@ -90,9 +90,9 @@ export const Description= styled.div`
     border-top: 1px solid var(--color-border);
     padding: 44px 32px;
 
-    >h2 {
+    > h2 {
         font-size: 24px;
-        margint-bottom: 32px;
+        margin-bottom: 32px;
     }
     > p {
         font-size: 16px;
